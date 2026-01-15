@@ -1,0 +1,163 @@
+*{
+
+    margin:0;
+    padding: 0;;
+    font-family: "Inter";
+    max-height: 2116px;
+}
+
+#menusuperior{
+    background-color:#303030;
+    color: #ffffff;
+    height: 475px;
+    width: 100%;
+}
+
+#titulo-menusuperior{
+    margin: 0;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    padding-top: 206px;
+    padding-left: 62px;
+}
+
+#texto-menusuperior{
+    margin:0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 28px;
+    padding-left: 62px;
+}
+
+#experience{
+    width: 100%;
+    margin: 0px;
+    height: 229px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color:#000000;
+    justify-items: center;
+
+    
+
+}
+
+.item{
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 96px;
+    height:66.18px;
+
+}
+
+.number{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.descricao{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+.presentation {
+    background-color: #ffffff;
+    color: #000000;
+    height: 779px;
+}
+
+.presentationtext{
+    max-width: 735px;
+    padding-left: 77px;
+
+}
+
+.presentationtext h2 {
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.presentationtext p{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.presentation{
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.presentationimg{
+    
+    justify-self: end;
+}
+
+#register {
+    background-color: #303030;
+    height: 638px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#registertext{
+
+    padding-top: 87px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    padding-bottom: 48px;
+}
+
+#register form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#register input{
+    width: 100%;
+    font-weight: 700;
+    font-family: "Raleway";
+    max-width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+#register input::placeholder{
+    color: #0000004D ;
+}
+
+#email{
+    margin-top: 62px;
+}
+
+#register button{
+    margin-top: 88px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Raleway";
+    cursor: pointer;
+
+}
